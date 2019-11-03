@@ -1,0 +1,24 @@
+baseURL = "https://toorop.fr/"
+languageCode = "fr-FR"
+title = "Toorop blog"
+disqusShortname = "toorop"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+googleAnalytics = "UA-27768590-1"
+
+[author]
+name = "Stéphane Depierrepont"
+email = "toorop@gmail.com"
+
+[params]
+contact = "toorop@gmail.com"
+description = "Blog personnel de Stéphane depierrepont aka Toorop"
+paginate = 9
+
+# Fonts settings.
+googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+
+[outputs]
+page = [ "HTML", "AMP" ] # if you want AMP enable.
+home = [ "HTML", "AMP", "RSS" ]
